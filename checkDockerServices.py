@@ -43,7 +43,6 @@ services = client.services.list()
 ## If cron : true, then grab....
 ## Write the collecte key/value
 ## pair to Consul and log success
-## test test
 ##################################
 for service in services:
     serviceObject = service.attrs
